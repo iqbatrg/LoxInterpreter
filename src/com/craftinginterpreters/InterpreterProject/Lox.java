@@ -21,7 +21,7 @@ public class Lox {
 
     static void report(int line, String where, String message) //helper function for error, shows format of error message
     {
-        System.err.println("[line " + line + "] Error" + where + ": " message);
+        System.err.println("[line " + line + "] Error" + where + ": " + message);
         hadError = true;
     }
 
